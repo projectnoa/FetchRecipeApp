@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		204B582E2D4858D70097B2A8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 204B582D2D4858D70097B2A8 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		204B57F92D47E1BF0097B2A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,10 @@
 		204B57E82D47E1BD0097B2A8 /* FetchRecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchRecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		204B57F82D47E1BF0097B2A8 /* FetchRecipeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchRecipeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		204B58022D47E1BF0097B2A8 /* FetchRecipeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchRecipeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		204B582D2D4858D70097B2A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		204B58302D485CD40097B2A8 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
+		204B58312D485CD40097B2A8 /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
+		204B58322D485CD40097B2A8 /* screen3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +83,8 @@
 		204B57DF2D47E1BD0097B2A8 = {
 			isa = PBXGroup;
 			children = (
+				204B582D2D4858D70097B2A8 /* README.md */,
+				204B582F2D485CC60097B2A8 /* Resources */,
 				204B57EA2D47E1BD0097B2A8 /* FetchRecipeApp */,
 				204B57FB2D47E1BF0097B2A8 /* FetchRecipeAppTests */,
 				204B58052D47E1BF0097B2A8 /* FetchRecipeAppUITests */,
@@ -90,6 +100,16 @@
 				204B58022D47E1BF0097B2A8 /* FetchRecipeAppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		204B582F2D485CC60097B2A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				204B58302D485CD40097B2A8 /* screen1.png */,
+				204B58312D485CD40097B2A8 /* screen2.png */,
+				204B58322D485CD40097B2A8 /* screen3.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204B582E2D4858D70097B2A8 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
